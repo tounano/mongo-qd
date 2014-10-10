@@ -1,0 +1,39 @@
+{
+  "name": "mongo-qd",
+  "version": "0.0.0",
+  "dependencies": {
+    "mongo-brocast": "0.*",
+    "qd": "0.*",
+    "xtend": "4.*",
+    "shallow-pick": "0.*"
+  },
+  "devDependencies": {
+    "mocha": "1.*",
+    "chai": "1.*",
+    "sinon": "1.*",
+    "sinon-chai":"2.*"
+  },
+  "main": "./index.js",
+  "description": "Priority Job Queue with MongoDB. A `qd` implementation.",
+  "homepage": "https://github.com/tounano/mongo-qd/",
+  "author": "ClickHere <js@clickhere.co.il>",
+  "keywords": [
+    "qd",
+    "job",
+    "queue",
+    "tasks",
+    "job queue",
+    "kue"
+  ],
+  "licenses": {
+    "type": "The MIT License",
+    "url": "http://www.opensource.org/licenses/mit-license.php"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tounano/mongo-qd"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  }
+}
